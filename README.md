@@ -3,15 +3,15 @@ Tugas mini project ke 2
 
 import pypandoc, os, zipfile, shutil, textwrap
 
-readme = r"""# Mini Project 2 — Asisten Kesehatan Berbasis RAG
+readme = r"""# Mini Project 2 — Asisten Ibadah Haji dan Umroh Berbasis RAG
 
 ## 📌 Deskripsi
 
-**Asisten Kesehatan** adalah aplikasi chatbot berbasis AI yang dibuat menggunakan **Streamlit**. Aplikasi ini dirancang untuk menjawab pertanyaan seputar kesehatan dan obat dengan memanfaatkan dokumen PDF sebagai sumber informasi.
+**Asisten Ibadah Haji dan Umroh** adalah aplikasi chatbot berbasis AI yang dibuat menggunakan **Streamlit**. Aplikasi ini dirancang untuk menjawab pertanyaan seputar ibadah haji dan umroh dengan memanfaatkan dokumen PDF sebagai sumber informasi.
 
 Proyek ini menggunakan konsep **RAG (Retrieval-Augmented Generation)**. Sederhananya, chatbot tidak langsung menjawab pertanyaan, tetapi terlebih dahulu mencari informasi yang relevan dari dokumen yang tersedia, kemudian memberikan informasi tersebut kepada model AI untuk membantu menyusun jawaban.
 
-> **Catatan:** Proyek ini dibuat untuk tujuan pembelajaran. Chatbot bukan pengganti dokter atau tenaga kesehatan dan tidak ditujukan untuk memberikan diagnosis atau nasihat medis personal.
+> **Catatan:** Proyek ini dibuat untuk tujuan pembelajaran. Chatbot bukan pengganti kiai, ustadz dan tidak ditujukan untuk memberikan nasihat personal.
 
 ---
 
